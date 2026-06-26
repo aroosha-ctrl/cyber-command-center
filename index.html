@@ -10,8 +10,6 @@
 
 <body>
 
-<div class="overlay"></div>
-
 <div class="left-panel">
     <h3>SYSTEM STATUS</h3>
     <p>ONLINE ●</p>
@@ -30,26 +28,34 @@
         <div class="power-fill"></div>
     </div>
 
-    <p>92%</p>
+    <p>92% CHARGED</p>
 </div>
 
 <div class="calculator">
 
     <div class="header">
         <h1>CYBER GALAXY COMMAND CENTER</h1>
-        <span>CALCULATOR MODULE v2.0</span>
+        <span>MISSION CALCULATOR • VERSION 2.0</span>
     </div>
+
+    <div class="divider"></div>
 
     <div class="terminal-label">
         > DISPLAY
         <span>// READY</span>
     </div>
 
+<div class="display-wrapper">
+
     <input
         type="text"
         class="display"
         readonly
     >
+
+    <span class="cursor">|</span>
+
+</div>
 
     <div class="message">
         SYSTEM ONLINE. AWAITING COMMAND...
@@ -82,6 +88,11 @@
 
     </div>
 
+    <div class="footer">
+
+        COMMAND • CALCULATE • CONQUER
+
+    </div>
 </div>
 
 <script src="script.js"></script>
